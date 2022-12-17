@@ -7,7 +7,7 @@ const SHA1_HEX_STRING_LENGTH: usize = 40;
 
 fn main() -> Result<(), Box<dyn Error>> {
     
-    use std::env;
+    
 
 
     let args: Vec<String> = env::args().collect();
